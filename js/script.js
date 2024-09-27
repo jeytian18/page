@@ -116,7 +116,7 @@ const swiper2 = new Swiper('.partnerCarousel', {
 var map = L.map('mapwrapper').setView([0.311144, 32.583711], 12);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/#map=19/0.311159/32.583687">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 
