@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email settings
-    $recipient = "info@romanmediaug.com"; // Replace with your email
+    $recipient = "info@romanmediaug.com"; 
     $subject = "New Contact from $name";
     $email_content = "Name: $name\n";
     $email_content .= "Email: $email\n\n";

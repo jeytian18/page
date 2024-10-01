@@ -1410,7 +1410,26 @@
 						<p></p>
 					</div>
 					<form class="row g-3" id="fungi-contact" method="POST" action="send_email.php">
-						<div class="col-md-6">
+						<div class="col-md-6"></div>
+							<div class="input-group mb-3">
+								<label for="inputName" class="form-label visually-hidden">Name</label>
+								<input type="text" id="name" name="name" required>
+	   						</div>
+	   					</div>
+	   					<div class="col-md-6">
+
+	   						<div class="input-group mb-3">
+								<label for="inputEmail" class="form-label visually-hidden">Email</label>
+								<input type="email" id="email" name="email" required>
+	   						</div>
+
+						</div>
+						<div class="col-md-12">
+							<label for="inputMessage" class="form-label visually-hidden">Message</label>
+							<textarea id="message" name="message" required></textarea>
+	   						<button type="submit" class="btn btn-main" name="submit">Send Message</button>
+						</div>
+						<!-- <div class="col-md-6">
 							<div class="input-group mb-3">
 								<label for="inputName" class="form-label visually-hidden">Name</label>
 		   						<input type="text" class="form-control" id="inputName" placeholder="Name*" name="inputName" required>
@@ -1428,7 +1447,7 @@
 							<label for="inputMessage" class="form-label visually-hidden">Message</label>
 	   						<textarea class="form-control mb-3" id="inputMessage" name="inputMessage" placeholder="Your message here*" required></textarea>
 	   						<button type="submit" class="btn btn-main" name="submit">Send Message</button>
-						</div>
+						</div> -->
 					</form> <!-- .row -->
 				</div>
 			</div> <!-- .row -->
