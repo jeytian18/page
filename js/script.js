@@ -48,6 +48,13 @@ event.target.classList.add('active');
 }
 
 
+// menu button
+window.onscroll = () => {
+	menu.classList.remove('bx-x');
+	navlist.classList.remove('open');
+};
+
+
 /*================================================================= 
     Testimonial carousel
 ==================================================================*/
