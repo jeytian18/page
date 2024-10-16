@@ -965,9 +965,9 @@ h6 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 20px;
+  /* max-width: 1200px; */
+  /* margin: 40px auto;
+  padding: 20px; */
   background-color: #0C0536; /* Add a light gray background */
 }
 
@@ -985,7 +985,7 @@ h6 {
 
 .promo-card-image {
   width: 90%;
-  height: 75%;
+  height: 85%;
   object-fit: cover;
   /* border-top-left-radius: 10px;
   border-top-right-radius: 10px; */
