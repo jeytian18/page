@@ -961,6 +961,93 @@ h6 {
   left: 5%;
   bottom: -2%;
 }
+.promo-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #0C0536; /* Add a light gray background */
+}
+
+.promo-card {
+  background-color: #FD562A;
+  /* border: 1px solid #ddd; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transform: scale(0.9);
+  /* opacity: 0; */
+  transition: transform 0.3s, opacity 0.3s;
+  text-align: center;
+}
+
+.promo-card-image {
+  width: 90%;
+  height: 75%;
+  object-fit: cover;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
+}
+
+.promo-card-content {
+  padding: 20px;
+}
+
+.promo-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.promo-card-description {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Fade-in effect on scrolling */
+.promo-card-grid .promo-card {
+  /* opacity: 0; */
+  transform: scale(0.9);
+}
+
+.promo-card-grid .promo-card.in-view {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Expand effect on hover */
+.promo-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .promo-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .promo-card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+
 /* Dark Mode Styling */
 .dark-mode .service-section {
   background: #0c0536;

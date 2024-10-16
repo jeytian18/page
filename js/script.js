@@ -159,6 +159,28 @@ $(document).ready(function () {
 
 });
 
+/*================================================================= 
+    Promo cards
+==================================================================*/
+const promo_cards = document.querySelectorAll('.promo-card');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+    } else {
+      entry.target.classList.remove('in-view');
+    }
+  });
+}, {
+  threshold: 0.5,
+});
+
+promo_cards.forEach((promo_card) => {
+  observer.observe(promo_card);
+});
+
+
+
 
 /*================================================================= 
     Contact form 
