@@ -1005,11 +1005,24 @@ h6 {
   color: aliceblue;
 }
 
-.promo-card-grid .btn-main{
-  align-items: center;
-  width: 300px;
+
+.promo-card-grid .btn-main {
+  padding: px;
+  margin: 20%, 80%;
+  background: #fd562a;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: none;
+}
+.promo-card-grid .btn-main:hover {
+  background: #7d1fc0;
+  color: #fff;
+}
+.promo-card-grid .btn-text {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
   text-align: center;
-  
 }
 .promo-card-description {
   font-size: 14px;
