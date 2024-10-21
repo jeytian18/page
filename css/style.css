@@ -890,7 +890,7 @@ h6 {
   10. Service Section
 ************************************************************/
 .service-section {
-  background-color: #7F52A0;
+  background-color: #0C0536;
   position: relative;
   padding-bottom: 100px;
 }
@@ -1005,6 +1005,12 @@ h6 {
   color: aliceblue;
 }
 
+.promo-card-grid .btn-main{
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  
+}
 .promo-card-description {
   font-size: 14px;
   color: #666;
