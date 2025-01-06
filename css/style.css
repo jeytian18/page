@@ -1786,6 +1786,9 @@ h6 {
   .hero-area .hero-head {
     font-size: 90px;
   }
+  .hero-area .hero-head {
+    font-size: 60px;
+  }
 }
 /* max-width: 1599px and min-width:1200px */
 @media (max-width: 1599px) and (min-width: 1200px) {
@@ -1918,6 +1921,7 @@ h6 {
   .hero-area .hero-head {
     font-size: 60px;
   }
+  
   .hero-area .image-wrapper {
     text-align: center;
     margin-top: 160px;
@@ -2274,6 +2278,15 @@ h6 {
     margin-top: 136px;
     margin-bottom: 36px;
   }
+  .hero-area .hero-head strong {
+    font-size: 35px;
+  }
+  .hero-area .hero-head {
+    font-size: 35px;
+  }
+  .hero-area .hero-head small {
+    font-size: 18px;
+  }
   .hero-area .image-wrapper:after {
     width: 66%;
     right: 54px;
@@ -2416,11 +2429,14 @@ h6 {
   .section-title h2:after {
     display: none;
   }
+  .hero-area .hero-head strong {
+    font-size: 35px;
+  }
   .hero-area .hero-head {
-    font-size: 20px;
+    font-size: 35px;
   }
   .hero-area .hero-head small {
-    /* font-size: 18px; */
+    font-size: 18px;
   }
   .hero-area .image-wrapper:after {
     display: none;
