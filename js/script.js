@@ -4,10 +4,10 @@
 /*================================================================= 
     pre loader 
 ==================================================================*/
-$('.js-preloader').preloadinator({
-  animation: 'fadeOut',
-  animationDuration: 15
-});
+// $('.js-preloader').preloadinator({
+//   animation: 'fadeOut',
+//   animationDuration: 5
+// });
 
 
 
