@@ -301,6 +301,13 @@ h6 {
 .site-header .navbar-brand {
   width: 160px;
 }
+#menu-icon{
+	color: #fd562a;
+	font-size: 40px;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
 /***********************************************************
   5. Hero Area
 ************************************************************/
